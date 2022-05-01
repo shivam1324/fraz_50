@@ -1,5 +1,3 @@
-https://leetcode.com/problems/two-sum/submissions/
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -27,7 +25,7 @@ public:
         vector<int> s;
         int size=nums.size();
         int diff;
-        unordered_map<int,int>m;
+        unordered_map<int,int> m;
         for(int i=0;i<size;i++)
         {
             diff=target-nums[i];
